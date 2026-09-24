@@ -1,0 +1,89 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# =========================
+# Temporary files
+# =========================
+tempCodeRunnerFile.py
+*.tmp
+*.temp
+*.log
+
+# =========================
+# Private datasets
+# =========================
+data/
+*.csv
+*.xlsx
+*.xls
+*.json
+
+# =========================
+# Trained models / private artifacts
+# =========================
+saved_models/
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.onnx
+*.h5
+*.keras
+
+# =========================
+# Generated / private outputs
+# =========================
+outputs/
+results/
+checkpoints/
+
+# =========================
+# Generated figures
+# Uncomment the next line if figures are also private
+# figures/
